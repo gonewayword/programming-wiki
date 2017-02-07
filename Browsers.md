@@ -1,9 +1,10 @@
 [<< back to table of contents](https://github.com/hackreactor/2016-04-peripheral-brain/wiki)
 
 ## What is the DOM?
-	* Stands for Document Object Model
-	* W3C (World Wide Web Consortium) standard for browsers, defined as "a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."
-	* The HTML DOM is structured as a tree of object/elements
+* Stands for Document Object Model
+* W3C (World Wide Web Consortium) standard for browsers, defined as "a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."
+* The HTML DOM is structured as a tree of object/elements
+
 ## How would you design the DOM, if you had to make it from scratch?
 * slnjf
 * dsifnkjd
