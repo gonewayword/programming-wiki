@@ -11,7 +11,7 @@
 
 ## Outline how browsers keep your data secure
 * The most common type of browser data attack is XSS, or Cross Site Scripting
-* XSS enables attackers to inject client-side scripts into web pages viewed by other users
+	* XSS enables attackers to inject client-side scripts into web pages viewed by other users
 * The basic protection for browser user data is the same-origin policy
 * With same-origin, a web browser permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin.
 * An origin is defined as a combination of URI scheme, hostname, and port number
@@ -19,7 +19,7 @@
 
 ## Basic Defense Against XSS
 * The most basic defense against XSS is contextual encoding/escaping of string input
-* This is a way of sanitizing URIs or string inputs to ensure they do not contain anything modifying client-side scripts
+	* This is a way of sanitizing URIs or string inputs to ensure they do not contain anything modifying client-side scripts
 * Validating untrusted HTML input with HTML Sanitization engines
 * Cookie Security - many sites tie the session's cookie/s to one particular IP address and do not allow access to that cookied session by anyone but that IP address
 * Disabling Client Side Scripts - This is blocking client-side sripts entirely, until a user knows that the website is trustworth and problem-free, and can then allow client-side scripts to operate. Some browsers have this functionality built in, and some products like [NoScript](https://en.wikipedia.org/wiki/NoScript) offer an advanced version.
