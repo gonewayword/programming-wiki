@@ -40,8 +40,8 @@
 
 * The moment a web page loads, the browser begins parsing the HTML file
 * The moment the browser hits a script file, parsing is paused and it will load that script file, and resume parsing as necessary
-* __Async Script Tag__: An async script tag, as such, <script async>, downloads the file during HTML parsing and will pause the HTML parser to execute it when it has finished downloading.
-* __Defer Script Tag__: A <script defer> script tag downloads the script file during HTML parsing and will only execute it after the parser has completed. Defer scripts are also guaranteed to execute in the order that they appear in the document.
+* __Async Script Tag__: An async script tag, as such, `<script async>`, downloads the file during HTML parsing and will pause the HTML parser to execute it when it has finished downloading.
+* __Defer Script Tag__: A `<script defer>` script tag downloads the script file during HTML parsing and will only execute it after the parser has completed. Defer scripts are also guaranteed to execute in the order that they appear in the document.
 
 ### Pagination and eager loading
 
@@ -63,4 +63,4 @@
 	 </ul>
 ```
 * The child elements, when clicked, will trigger the parent's click event.
-* Event bubbling specifically refers to bubbling event handlers from the source child, all the way up to even the document level
+* Event bubbling specifically refers to bubbling event handlers from the source child, all the way up to even the document levelgit
